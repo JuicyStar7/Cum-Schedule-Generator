@@ -8,5 +8,10 @@ n = 0  # 0 is nude, 1 is barely/occasionally, 2 is completely non-nude
 # specify number of days for cum schedule
 days = 30  # change to any integer
 
-#specify pause in cum schedule list (in seconds)
+# specify pause in cum schedule list (in seconds)
 sleep = 0
+
+# specify probability of cum, edge, and deny days (as a ratio)
+cum = 1
+edge = 1
+deny = 1
