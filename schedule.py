@@ -7,7 +7,7 @@ import utils
 
 
 def schedule(n, days):
-    sch_list = random.choices(['Cum', 'Edge', 'Deny'], weights=[1, 1, 1], k=days)
+    sch_list = random.choices(['Cum', 'Edge', 'Deny'], weights=[cfg.cum, cfg.edge, cfg.deny], k=days)
     if n < 2:
         subs = [utils.random_sub_for_schedule(n) if i == "Cum" else utils.random_sub_for_schedule(
             n + 1) if i == "Edge" else "Nothing!" for i in sch_list]
