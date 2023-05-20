@@ -1,9 +1,5 @@
 import pandas as pd
 
-personal = [
-    'thighhighs'
-]
-
 # lists below (nude)
 
 fem_masturbation = [
