@@ -49,7 +49,7 @@ humiliation = [
     'womenarethings'
 ]
 
-misogyny = [
+maledom = [
     'fuckdoll',
     'misogynyxxx',
     'misogynygonewild',
@@ -247,7 +247,7 @@ censors = [
 # dictionary of lists: update after adding new lists in the corresponding dict row
 
 master = {
-    'nsfw': [fem_masturbation, humiliation, misogyny, alternative, public, cunnilingus, amateur, young],
+    'nsfw': [fem_masturbation, humiliation, maledom, alternative, public, cunnilingus, amateur, young],
     'barely_sfw': [breasts, tight_clothes],
     'non_nude': [censors]
 }
